@@ -1,10 +1,11 @@
 {
   "expo": {
-    "name": "inclub-reto-tecnico",
-    "slug": "inclub-reto-tecnico",
+    "name": "pokeapireto",
+    "slug": "pokeapireto",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
+    "platforms": ["android"],
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -13,15 +14,15 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
     "android": {
+      "versionCode": 1,
+      "package": "com.pokeapireto.app",
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#FFFFFF"
       }
     },
